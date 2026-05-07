@@ -9,8 +9,8 @@
     </title>
     <style>
       .marquee {
-        overflow: hidden; /* Hides the text when it leaves the box */
-        white-space: nowrap; /* Keeps text in one long line */
+        overflow: hidden;
+        white-space: nowrap;
         background: #333;
         color: white;
         padding: 10px 0;
@@ -18,12 +18,12 @@
 
       .marquee-content {
         display: inline-block;
-        animation: scroll 8s linear infinite; /* Adjust speed here */
+        animation: scroll 8s linear infinite;
       }
 
       @keyframes scroll {
         from { transform: translateX(0); }
-        to { transform: translateX(-50%); } /* Moves halfway so the duplicate takes over */
+        to { transform: translateX(-50%); }
       }
 
       .above-marquee {
